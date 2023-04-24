@@ -357,7 +357,7 @@ do -- Default Commands
         if _PERF then return end
         
         _PERF = true
-        _TARGETFPS = 8
+        _TARGETFPS = 2
 
         if Message and tonumber(Message) then
             _TARGETFPS = tonumber(Message)
